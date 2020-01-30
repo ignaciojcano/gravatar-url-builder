@@ -1,0 +1,32 @@
+{
+  "name": "@icano/gravatar-url-builder",
+  "private": false,
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint {tests,lib}/**/*.js",
+    "lint:fix": "eslint {tests,lib}/**/*.js --fix",
+    "test": "tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciojcano/gravatar-url-builder.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ignaciojcano/gravatar-url-builder/issues"
+  },
+  "homepage": "https://github.com/ignaciojcano/gravatar-url-builder#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "tape": "^4.13.0"
+  }
+}
